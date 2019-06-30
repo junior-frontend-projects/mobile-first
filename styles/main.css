@@ -1,1 +1,71 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+body #showcase {
+  min-height: 450px;
+  color: #fff;
+  text-align: center;
+}
+
+body #showcase .bg-image {
+  position: absolute;
+  background: #333 url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+body #showcase .content-wrap {
+  padding: 0 1.5em;
+}
+
+body #showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+body img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body h1, body h2, body h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+body p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+body .btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  border-radius: 5px;
+  margin: .5em 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .btn:hover {
+  background: #eaeaea;
+  color: #333;
+}
+/*# sourceMappingURL=main.css.map */
