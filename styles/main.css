@@ -35,6 +35,63 @@ body #showcase h1 {
   padding-bottom: 0;
 }
 
+body #main #section-a {
+  background: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+body #main #section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+body #main #section-b {
+  padding: 2em 1em 1em;
+}
+
+body #main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body #main li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+}
+
+body #main .card-content {
+  padding: 1.5em;
+}
+
+body #main #section-c {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+}
+
+body #main .box {
+  padding: 2em;
+  color: #fff;
+}
+
+body #main .box:first-child {
+  background: #2690d4;
+}
+
+body #main-footer {
+  padding: 2em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+body #main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
 body img {
   display: block;
   width: 100%;

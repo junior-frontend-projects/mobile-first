@@ -1,7 +1,6 @@
 $border: 1px solid red;
 
 // Core Styles
-
 body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -41,9 +40,71 @@ body{
   }
 }
 
+#main{
 // Section A
   #section-a{
-    
+    // border: $border;
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+
+    .content-wrap{
+      padding: 0 1.5em;
+      // border: $border;
+    }
+  }
+
+
+// Section B 
+  #section-b{
+    padding: 2em 1em 1em;
+  }
+
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+  }
+
+  .card-content{
+    padding: 1.5em;
+  }
+
+// Section C
+  #section-c{
+    background: #fff;
+    color: #333;
+    padding: 2em;
+  } 
+
+// Section D
+  .box{
+    padding: 2em;
+    color: #fff;
+  }
+  
+  .box:first-child{
+    background: #2690d4;
+  }
+}
+
+// Footer
+  #main-footer{
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+
+    a{
+      color: #2690d4;
+      text-decoration: none;
+    }
   }
 
     img{
